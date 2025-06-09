@@ -1,0 +1,115 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f0f6fc;
+  color: #0d3b66;
+}
+
+.main-header {
+  background-color: #e0f0ff;
+  border-radius: 12px;
+  margin: 20px auto;
+  max-width: 68%;
+}
+
+.logo img {
+  height: 70px;
+  border-radius: 10px;
+}
+
+.nav-links a {
+  color: #0d3b66;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #339af0;
+}
+
+.login-area input {
+  padding: 6px 10px;
+  border-radius: 8px;
+  border: 1px solid #b0d4f1;
+  background-color: #ffffff;
+}
+
+.login-area button {
+  padding: 6px 14px;
+  background-color: #0d6efd;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.custom-card {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.custom-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.custom-card .card-img-top {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.custom-card .card-title {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.custom-card .card-text {
+  font-size: 0.95rem;
+}
+
+.bg-blue-light {
+  background-color: #7dbaf3;
+  color: white;
+}
+
+.login-area button:hover {
+  background-color: #0b5ed7;
+}
+
+/* Carousel */
+.carousel-inner img {
+  height: 400px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.carousel-caption {
+  bottom: 30px;
+}
+
+.btn-service {
+  background-color: rgba(13, 110, 253, 0.2);
+  color: #fff;
+  padding: 12px 28px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 1rem;
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  transition: background-color 0.3s, transform 0.2s;
+  text-decoration: none;          /* REMOVE sublinhado */
+  display: inline-block;          /* Permite manter aparência de botão */
+}
+
+.btn-service:hover {
+  background-color: rgba(13, 110, 253, 0.55);
+  transform: scale(1.05); 
+  cursor: pointer;
+  text-decoration: none;          /* Garante que não volte ao hover */
+}

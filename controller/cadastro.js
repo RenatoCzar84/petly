@@ -1,5 +1,3 @@
-Teste pull
-
   function adicionarPet() {
     const container = document.getElementById('pets-container');
 

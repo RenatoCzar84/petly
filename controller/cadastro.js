@@ -1,4 +1,6 @@
-  function adicionarPet() {
+Fran
+
+function adicionarPet() {
     const container = document.getElementById('pets-container');
 
     const novoPet = document.createElement('div');
